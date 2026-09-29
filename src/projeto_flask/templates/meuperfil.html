@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block titulo %}
+perfil - {{usuario}}
+{% endblock %}
+
+{% block body %}
+<body>
+    <h1>MEU PERFIL, usuario {{usuario}}</h1>
+    
+<a href="{{url_for('login')}}">LOGIN</a>
+
+</body>
+{% endblock %}
+
